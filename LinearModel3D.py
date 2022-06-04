@@ -25,7 +25,6 @@ for x, y in zip(xData, yData):
 
 mse /= len(xData)
 
-
 # draw
 # add axes
 fig = plt.figure()
