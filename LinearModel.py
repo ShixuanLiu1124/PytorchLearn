@@ -17,7 +17,7 @@ mse_list = []
 for w in np.arange(0.0, 4.1, 0.1):
     print('w = ', w)
     l_sum = 0
-    for x_val, y_val in zip(x_data, y_data):
+    for x_val, y_val in zip(xData, yData):
         y_pred_val = predict(x_val)
         loss_val = loss(x_val, y_val)
         l_sum += loss_val
